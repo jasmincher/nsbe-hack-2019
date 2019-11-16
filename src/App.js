@@ -2,7 +2,10 @@ import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
-
+import Search from './pages/Search';
+import Home from './pages/Home';
+import Results from './pages/Results';
+import Contributors from './pages/Contributors';
 
 
 function App() {
